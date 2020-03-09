@@ -23,6 +23,6 @@ class BankAccount
   end
 
   def cloae_account
-    @staues = "closed"
+    @status = "closed"
   end
 end
