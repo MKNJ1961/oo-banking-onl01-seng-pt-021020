@@ -21,4 +21,8 @@ class BankAccount
   def valid?
     @status == "open"  && @balance > 0 ? true : false
   end
+
+  def cloae_account
+    @staues = "closed"
+  end
 end
